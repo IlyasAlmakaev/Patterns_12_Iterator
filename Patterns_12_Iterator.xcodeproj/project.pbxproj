@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2851E7BF1F3DB6DB001CE597 /* ItemInShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2851E7BE1F3DB6DB001CE597 /* ItemInShop.m */; };
+		2851E7C21F3DB7AE001CE597 /* ShopWareHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2851E7C11F3DB7AE001CE597 /* ShopWareHouse.m */; };
+		2851E7C51F3DBB54001CE597 /* BasicEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2851E7C41F3DBB54001CE597 /* BasicEnumerator.m */; };
+		2851E7C81F3DBBC7001CE597 /* BadItemsEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2851E7C71F3DBBC7001CE597 /* BadItemsEnumerator.m */; };
+		2851E7CE1F3DC4FC001CE597 /* GoodItemsEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2851E7CD1F3DC4FC001CE597 /* GoodItemsEnumerator.m */; };
 		286008F71F345EF100B6E8F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286008F61F345EF100B6E8F1 /* main.m */; };
 		286008FA1F345EF100B6E8F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 286008F91F345EF100B6E8F1 /* AppDelegate.m */; };
 		286008FD1F345EF100B6E8F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286008FC1F345EF100B6E8F1 /* ViewController.m */; };
@@ -16,6 +21,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2851E7BD1F3DB6DB001CE597 /* ItemInShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemInShop.h; sourceTree = "<group>"; };
+		2851E7BE1F3DB6DB001CE597 /* ItemInShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemInShop.m; sourceTree = "<group>"; };
+		2851E7C01F3DB7AE001CE597 /* ShopWareHouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopWareHouse.h; sourceTree = "<group>"; };
+		2851E7C11F3DB7AE001CE597 /* ShopWareHouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopWareHouse.m; sourceTree = "<group>"; };
+		2851E7C31F3DBB54001CE597 /* BasicEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicEnumerator.h; sourceTree = "<group>"; };
+		2851E7C41F3DBB54001CE597 /* BasicEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicEnumerator.m; sourceTree = "<group>"; };
+		2851E7C61F3DBBC7001CE597 /* BadItemsEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadItemsEnumerator.h; sourceTree = "<group>"; };
+		2851E7C71F3DBBC7001CE597 /* BadItemsEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadItemsEnumerator.m; sourceTree = "<group>"; };
+		2851E7CC1F3DC4FC001CE597 /* GoodItemsEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodItemsEnumerator.h; sourceTree = "<group>"; };
+		2851E7CD1F3DC4FC001CE597 /* GoodItemsEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodItemsEnumerator.m; sourceTree = "<group>"; };
 		286008F21F345EF100B6E8F1 /* Patterns_12_Iterator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patterns_12_Iterator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286008F61F345EF100B6E8F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		286008F81F345EF100B6E8F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +75,16 @@
 			children = (
 				286008F81F345EF100B6E8F1 /* AppDelegate.h */,
 				286008F91F345EF100B6E8F1 /* AppDelegate.m */,
+				2851E7BD1F3DB6DB001CE597 /* ItemInShop.h */,
+				2851E7BE1F3DB6DB001CE597 /* ItemInShop.m */,
+				2851E7C01F3DB7AE001CE597 /* ShopWareHouse.h */,
+				2851E7C11F3DB7AE001CE597 /* ShopWareHouse.m */,
+				2851E7C31F3DBB54001CE597 /* BasicEnumerator.h */,
+				2851E7C41F3DBB54001CE597 /* BasicEnumerator.m */,
+				2851E7C61F3DBBC7001CE597 /* BadItemsEnumerator.h */,
+				2851E7C71F3DBBC7001CE597 /* BadItemsEnumerator.m */,
+				2851E7CC1F3DC4FC001CE597 /* GoodItemsEnumerator.h */,
+				2851E7CD1F3DC4FC001CE597 /* GoodItemsEnumerator.m */,
 				286008FB1F345EF100B6E8F1 /* ViewController.h */,
 				286008FC1F345EF100B6E8F1 /* ViewController.m */,
 				286008FE1F345EF100B6E8F1 /* Main.storyboard */,
@@ -153,7 +178,12 @@
 			files = (
 				286008FD1F345EF100B6E8F1 /* ViewController.m in Sources */,
 				286008FA1F345EF100B6E8F1 /* AppDelegate.m in Sources */,
+				2851E7C51F3DBB54001CE597 /* BasicEnumerator.m in Sources */,
+				2851E7CE1F3DC4FC001CE597 /* GoodItemsEnumerator.m in Sources */,
+				2851E7C21F3DB7AE001CE597 /* ShopWareHouse.m in Sources */,
 				286008F71F345EF100B6E8F1 /* main.m in Sources */,
+				2851E7C81F3DBBC7001CE597 /* BadItemsEnumerator.m in Sources */,
+				2851E7BF1F3DB6DB001CE597 /* ItemInShop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +344,7 @@
 				2860090B1F345EF100B6E8F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
